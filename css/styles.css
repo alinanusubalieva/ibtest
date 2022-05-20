@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=PT+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #24204A;
+}
+header{
+    width: 80%;
+    margin: 37px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 15px 0;
+}
+header h3{
+font-family: 'TT Hoves', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+padding: 10px 0;
+}
+ header nav li{
+    font-family: 'TT Hoves', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    list-style-type: none;
+ }
+ header button{
+    width: 153px;
+    height: 46px;
+    background: #4B4864;
+    border: 1px solid #8E88C1;
+    border-radius: 8px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+ }
+ hr{
+     width: 80%;
+     height: 1px;
+     margin: 0 10%;
+     background-color:#8E88C1;
+ }
+
+ main{
+     margin: 30px 10%;
+ }
+ .mainPage{
+     display: flex;
+     justify-content: space-between;
+ }
+ .mainText{
+     width: 600px;
+     height: 400px;
+     margin: 70px 0;
+
+ }
+ .main2{
+     height: 700px;
+     margin: 30px 0;
+     padding: 2% 10%;
+     background-color: #071341;
+ }
+ .conteiner_block{
+   
+    display: flex;
+    justify-content: space-between;
+ }
+ .cardBlock{
+     display: flex;
+     justify-content: space-between;
+     color: white;
+     -o-transition: all 0.5s ease-in-out;
+     -moz-transition: all 0.5s ease-in-out;
+     -webkit-transition: all 0.5s ease-in-out;
+     transition: all 0.5s ease-in-out;
+   
+     
+ }
+ .cardBlock img{
+ 
+ }
+ .cardBlock div{
+     padding: 10px;
+     display: inline-block;
+     -o-transform: translateX(20px);
+   -ms-transform: translateX(20px);
+   -moz-transform: translateX(20px);
+   -webkit-transform: translateX(20px);
+   transform: translateX(20px);
+ }
+.main2 hr{
+    width: 100%;
+    height: 1px;
+    background-color:#8E88C1;
+}
+.main2 h1{
+font-family: 'TT Hoves';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+color: #FFFFFF;
+}
+.main2 span{
+margin: 30px 30%;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #8E88C1;
+}
+.cardBox{
+    width: 209px;
+    height: 206px;
+    border: 1px, solid #8E88C1;
+  
+}
+   
+ 
